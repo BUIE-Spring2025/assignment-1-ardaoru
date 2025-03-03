@@ -9,10 +9,10 @@ def int_to_roman(num):
 
     output = []
     
-    for number, letters in roman_numbers.items()
-        while num >= number
-        output.append(letters)
-        num = num - number
+    for number, letters in roman_numbers.items():
+        while num >= number:
+            output.append(letters)
+            num = num - number
 
     out_str = ''.join(output)
 
