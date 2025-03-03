@@ -14,5 +14,10 @@ def int_to_roman(num):
         output.append(letters)
         num = num - number
 
-    return output              
+    out_str = ""
+    
+    for i in range len(output)
+        out_str[i] = output[i]
+
+    return out_str              
             
